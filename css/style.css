@@ -1,0 +1,305 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #3F0071;
+}
+.wrap{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+
+}
+.clearfix{
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;
+}
+.left{
+  float: left;
+  padding-top: 15px;
+
+}
+.image{
+  height: 80px;
+  width: 80px;
+
+
+}
+.right{
+  float:right;
+}
+.right ul li{
+  display: inline-block;
+  margin: 15px;
+
+
+}
+.right ul li a{
+text-decoration: none;
+font-size: 15px;
+color: #10A19D;
+}
+.right ul li a:hover{
+color: white;
+}
+.background{
+  position: relative;
+}
+.img-heading{
+  position: absolute;
+  transform: translate(130%, -1200%);
+  font-size: 35px;
+  /* font-family: Montserrat; */
+  color: blue;
+text-shadow: 2px 2px 4px pink;
+}
+
+.card-section{
+  background-color:orange;
+  margin-top: 0px;
+}
+.row{
+  width: 100%;
+}
+.column{
+  width: 23%;
+  float: left;
+  text-align: center;
+  background-color: pink;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+
+
+}
+.column img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 200px;
+
+
+}
+.img-border{
+  border-top: 6px solid white;
+
+}
+p{
+  text-align: justify;
+  padding: 5px;
+
+}
+.card-section2{
+  background-color:#C0EEE4;
+  margin-top: 0px;
+}
+.row{
+  width: 100%;
+}
+.column2{
+  width: 23%;
+  float: left;
+  text-align: center;
+  background-color:#C0EEE4;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border-radius: 10%
+
+
+}
+.column2 img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 200px;
+
+
+
+}
+.column2 img:hover{
+  transform: scale(1.2);
+
+}
+.IMAGE{
+  border-radius: 40%;
+}
+.img-border2{
+  /* border-top: 6px solid white; */
+
+
+
+}
+.state{
+  background-color: #F4EAD5;
+width: 100%;
+
+}
+.heading{
+  font-family: 'PT Mono', monospace;
+  text-align: center;
+  color:#2e9f2b;
+  font-weight: 2PX;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+.state-para{
+  text-align: center;
+}
+.state-column{
+  float: left;
+  width: 25%;
+
+
+}
+.state-culture-img{
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+}
+.state-content{
+  text-align:left;
+}
+.state-culture-img:hover{
+  transform:scale(1.2);
+  z-index: 2;
+}
+.our-country{
+/* background-color: green; */
+margin-top: 0px;
+}
+.country-description{
+  text-align: center;
+  padding-top: 50px;
+
+}
+.HEAD{
+  color: #E14D2A;
+font-weight: bolder;
+}
+.country-description-para{
+text-align: center;
+font-size: 20PX;
+font-style: normal;
+}
+.country-row{
+width: 100%;
+}
+
+.country-column{
+  float: left;
+  width: 48%;
+}
+.country-column-para{
+  line-height: 1.5;
+  font-size: 18px;
+  font-style: oblique;
+}
+.country-list{
+  margin-top: 15px;
+  padding-left: 0px;
+}
+.country-list li{
+  list-style: none;
+  margin-top: 10px;
+}
+.country-img{
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+.country-para{
+  padding-left: 10px;
+}
+.myButton {
+	box-shadow: 1px 11px 17px -6px #3e7327;
+	background:linear-gradient(to bottom, #c5fb6d 5%, #578540 100%);
+	background-color:#c5fb6d;
+	border-radius:6px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:-1px 2px 0px #5b8a3c;
+  margin-top: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #578540 5%, #c5fb6d 100%);
+	background-color:#578540;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.country-img2{
+  float: right;
+  height: 300px;
+  /* width: 500px; */
+}
+footer{
+  background-color: #000000;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.row-footer{
+  width: 100%;
+
+}
+
+.column-footer{
+  width: 23%;
+  float: left;
+  margin: 11px;
+
+}
+h5{
+  font-family: Montserrat;
+  color: #c4fb6d;
+  text-shadow: 0 0 0.8em #c4fb6d, 0 0 0.6em #bac964;
+
+}
+.company-address{
+  font-family: Merriweather;
+ font-size: 12px;
+ line-height: 3;
+ color: #ffffff;
+}
+.company-phone{
+  font-family: Merriweather;
+  font-size: 12px;
+  line-height: 3;
+  color: #ffffff;
+}
+
+.footer-list{
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+
+}
+
+.list-item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-links{
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-links:hover{
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
